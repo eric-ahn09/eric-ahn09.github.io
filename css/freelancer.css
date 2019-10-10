@@ -9974,7 +9974,18 @@ input[type="text"], input[type="email"], input[type="tel"], textarea[id="message
 }
 
 .bg-event {
-  background-image: url("../img/bookReading.png");
+  background-image: url("../img/eventPage.png");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.bg-mission {
+  background-image: url("../img/missionPage.jpg");
 
   height: 50%;
 
