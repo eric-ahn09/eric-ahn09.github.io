@@ -27,8 +27,12 @@
   <!--Animate CSS -->
   <link href="css/animate.css" rel="stylesheet">
   
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>$.noConflict(true);</script>
+  
   <!--JQuery-->
-<script src="https://code.jquery.com/jquery-1.11.1.min.js" integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>    
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js" integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>    
   <!--Unite Gallery-->
   <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/js/unitegallery.min.js'></script>
 		
@@ -40,7 +44,7 @@
   <script>
 	$(document).ready(function() {
 			$(window).scroll(function() {
-			  if($(this).scrollTop() > 500) { 
+			  if($(this).scrollTop() > 120) { 
 				  $('.navbar').addClass('scrolled');
 				  $('a.nav-link').addClass('scrolled');
 			  } else {
@@ -106,8 +110,8 @@
 	  
 	  <br>
 	  
-	  <div class="row-nowrap">
-		  <div class="col-lg-4 ml-4 mb-5 mb-lg-0">
+	  <div class="row">
+		  <div class="col-lg-4 mb-5 mb-lg-0">
 		  
 			<div class="card " style="width: 18rem;" >
 				<img class="card-img-top" src="img/eric.jpg" alt="Eric">
@@ -118,7 +122,7 @@
 			</div>
 		  </div>
 		  
-		  <div class="col-lg-4 mb-5 mb-lg-0">
+		  <div class="col-lg-4 ml-4 mb-5 mb-lg-0">
 			<div class="card" style="width: 18rem;">
 				<img class="card-img-top" src="img/henry.jpg" alt="Henry">
 				  <div class="card-body text-primary">
@@ -128,7 +132,7 @@
 			</div>
 		  </div>
 		  
-		  <div class="col-lg-4">
+		  <div class="col-lg-3">
 			<div class="card" style="width: 18rem;">
 				<img class="card-img-top" src="img/josh.jpg" alt="Josh">
 					<div class="card-body text-primary">
@@ -280,5 +284,7 @@
   
   
 </body>
+
+
 
 </html>

@@ -27,6 +27,10 @@
   <!--Animate CSS -->
   <link href="css/animate.css" rel="stylesheet">
   
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>$.noConflict(true);</script>
+  
   <!-- JQuery -->
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
   
@@ -43,7 +47,7 @@
   <script>
 	$(document).ready(function() {
 			$(window).scroll(function() {
-			  if($(this).scrollTop() > 500) { 
+			  if($(this).scrollTop() > 120) { 
 				  $('.navbar').addClass('scrolled');
 				  $('a.nav-link').addClass('scrolled');
 			  } else {
